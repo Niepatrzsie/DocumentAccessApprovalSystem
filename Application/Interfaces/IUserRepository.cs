@@ -1,0 +1,9 @@
+﻿using Document_Access_Approval_System.Domain.Entities;
+
+namespace Document_Access_Approval_System.Application.Interfaces
+{
+    public interface IUserRepository
+    {
+        Task<User?> GetByIdAsync(Guid id);
+    }
+}

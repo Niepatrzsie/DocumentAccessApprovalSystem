@@ -1,0 +1,814 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6246657A-6274-40E6-984F-87C8288218A5}|Tests\\Tests.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\tests\\application\\accessrequests\\commands\\rejectaccessrequesthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6246657A-6274-40E6-984F-87C8288218A5}|Tests\\Tests.csproj|solutionrelative:tests\\application\\accessrequests\\commands\\rejectaccessrequesthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6246657A-6274-40E6-984F-87C8288218A5}|Tests\\Tests.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\tests\\application\\accessrequests\\commands\\approveaccessrequesthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6246657A-6274-40E6-984F-87C8288218A5}|Tests\\Tests.csproj|solutionrelative:tests\\application\\accessrequests\\commands\\approveaccessrequesthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\application\\accessrequests\\commands\\createaccessrequest\\createaccessrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:application\\accessrequests\\commands\\createaccessrequest\\createaccessrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6246657A-6274-40E6-984F-87C8288218A5}|Tests\\Tests.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\tests\\application\\accessrequests\\commands\\createaccessrequesthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6246657A-6274-40E6-984F-87C8288218A5}|Tests\\Tests.csproj|solutionrelative:tests\\application\\accessrequests\\commands\\createaccessrequesthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\application\\interfaces\\iaccessrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:application\\interfaces\\iaccessrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\domain\\entities\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:domain\\entities\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\infrastructure\\repositories\\accessrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:infrastructure\\repositories\\accessrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\application\\accessrequests\\commands\\approveaccessrequest\\approveaccessrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|solutionrelative:application\\accessrequests\\commands\\approveaccessrequest\\approveaccessrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\application\\accessrequests\\commands\\approveaccessrequest\\approveaccessrequestcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|solutionrelative:application\\accessrequests\\commands\\approveaccessrequest\\approveaccessrequestcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6246657A-6274-40E6-984F-87C8288218A5}|Tests\\Tests.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6246657A-6274-40E6-984F-87C8288218A5}|Tests\\Tests.csproj|solutionrelative:tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\api\\controllers\\accessrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:api\\controllers\\accessrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\application\\accessrequests\\queries\\getaccessrequestdetails\\getaccessrequestdetailshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|solutionrelative:application\\accessrequests\\queries\\getaccessrequestdetails\\getaccessrequestdetailshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\domain\\entities\\accessrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:domain\\entities\\accessrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\domain\\entities\\decision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:domain\\entities\\decision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\application\\accessrequests\\queries\\getaccessrequestdetails\\getaccessrequestdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|solutionrelative:application\\accessrequests\\queries\\getaccessrequestdetails\\getaccessrequestdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\application\\accessrequests\\queries\\getaccessrequestdetails\\accessrequestdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|solutionrelative:application\\accessrequests\\queries\\getaccessrequestdetails\\accessrequestdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\application\\accessrequests\\queries\\getaccessrequestdetails\\decisiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|solutionrelative:application\\accessrequests\\queries\\getaccessrequestdetails\\decisiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\api\\models\\rejectaccessrequestrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|solutionrelative:api\\models\\rejectaccessrequestrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\application\\accessrequests\\commands\\rejectaccessrequest\\rejectaccessrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|solutionrelative:application\\accessrequests\\commands\\rejectaccessrequest\\rejectaccessrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\domain\\enums\\requeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:domain\\enums\\requeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\application\\accessrequests\\commands\\rejectaccessrequest\\rejectaccessrequestcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|solutionrelative:application\\accessrequests\\commands\\rejectaccessrequest\\rejectaccessrequestcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\api\\models\\approveaccessrequestrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|solutionrelative:api\\models\\approveaccessrequestrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\application\\accessrequests\\queries\\getpendingaccessrequests\\getpendingaccessrequestshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|solutionrelative:application\\accessrequests\\queries\\getpendingaccessrequests\\getpendingaccessrequestshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\application\\accessrequests\\queries\\getpendingaccessrequests\\pendingaccessrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|solutionrelative:application\\accessrequests\\queries\\getpendingaccessrequests\\pendingaccessrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\application\\accessrequests\\queries\\getpendingaccessrequests\\getpendingaccessrequestsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|solutionrelative:application\\accessrequests\\queries\\getpendingaccessrequests\\getpendingaccessrequestsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\application\\accessrequests\\queries\\getuseraccessrequests\\getuseraccessrequestshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|solutionrelative:application\\accessrequests\\queries\\getuseraccessrequests\\getuseraccessrequestshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\application\\accessrequests\\queries\\getuseraccessrequests\\getuseraccessrequestsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|solutionrelative:application\\accessrequests\\queries\\getuseraccessrequests\\getuseraccessrequestsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\application\\accessrequests\\queries\\getuseraccessrequests\\useraccessrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|solutionrelative:application\\accessrequests\\queries\\getuseraccessrequests\\useraccessrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\documentaccessapprovalsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|DocumentAccessApprovalSystem.csproj|solutionrelative:documentaccessapprovalsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\api\\models\\createaccessrequestrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:api\\models\\createaccessrequestrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\domain\\enums\\accesstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:domain\\enums\\accesstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\api\\controllers\\debugcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:api\\controllers\\debugcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\infrastructure\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:infrastructure\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\application\\accessrequests\\commands\\createaccessrequest\\createaccessrequestcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:application\\accessrequests\\commands\\createaccessrequest\\createaccessrequestcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\infrastructure\\repositories\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:infrastructure\\repositories\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\application\\interfaces\\idocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:application\\interfaces\\idocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6246657A-6274-40E6-984F-87C8288218A5}|Tests\\Tests.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\tests\\domain\\entities\\accessrequesttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6246657A-6274-40E6-984F-87C8288218A5}|Tests\\Tests.csproj|solutionrelative:tests\\domain\\entities\\accessrequesttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6246657A-6274-40E6-984F-87C8288218A5}|Tests\\Tests.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\tests\\infrastructure\\dbseedertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6246657A-6274-40E6-984F-87C8288218A5}|Tests\\Tests.csproj|solutionrelative:tests\\infrastructure\\dbseedertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|c:\\users\\rala\\desktop\\sandbox\\repos\\document access approval system\\domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{804B5470-1650-4656-8AAA-5972B7C4689A}|Document Access Approval System.csproj|solutionrelative:domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 142,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 9,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RejectAccessRequestHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Tests\\Application\\AccessRequests\\Commands\\RejectAccessRequestHandlerTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Application\\AccessRequests\\Commands\\RejectAccessRequestHandlerTests.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Tests\\Application\\AccessRequests\\Commands\\RejectAccessRequestHandlerTests.cs",
+              "RelativeToolTip": "Tests\\Application\\AccessRequests\\Commands\\RejectAccessRequestHandlerTests.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAUwEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T23:15:07.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApproveAccessRequestHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Tests\\Application\\AccessRequests\\Commands\\ApproveAccessRequestHandlerTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Application\\AccessRequests\\Commands\\ApproveAccessRequestHandlerTests.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Tests\\Application\\AccessRequests\\Commands\\ApproveAccessRequestHandlerTests.cs",
+              "RelativeToolTip": "Tests\\Application\\AccessRequests\\Commands\\ApproveAccessRequestHandlerTests.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAUwD4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T23:13:45.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateAccessRequestHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Tests\\Application\\AccessRequests\\Commands\\CreateAccessRequestHandlerTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Application\\AccessRequests\\Commands\\CreateAccessRequestHandlerTests.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Tests\\Application\\AccessRequests\\Commands\\CreateAccessRequestHandlerTests.cs",
+              "RelativeToolTip": "Tests\\Application\\AccessRequests\\Commands\\CreateAccessRequestHandlerTests.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T22:55:20.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetAccessRequestDetailsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetAccessRequestDetails\\GetAccessRequestDetailsHandler.cs",
+              "RelativeDocumentMoniker": "Application\\AccessRequests\\Queries\\GetAccessRequestDetails\\GetAccessRequestDetailsHandler.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetAccessRequestDetails\\GetAccessRequestDetailsHandler.cs",
+              "RelativeToolTip": "Application\\AccessRequests\\Queries\\GetAccessRequestDetails\\GetAccessRequestDetailsHandler.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T21:47:33.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetAccessRequestDetailsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetAccessRequestDetails\\GetAccessRequestDetailsQuery.cs",
+              "RelativeDocumentMoniker": "Application\\AccessRequests\\Queries\\GetAccessRequestDetails\\GetAccessRequestDetailsQuery.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetAccessRequestDetails\\GetAccessRequestDetailsQuery.cs",
+              "RelativeToolTip": "Application\\AccessRequests\\Queries\\GetAccessRequestDetails\\GetAccessRequestDetailsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T21:47:11.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DecisionDto.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetAccessRequestDetails\\DecisionDto.cs",
+              "RelativeDocumentMoniker": "Application\\AccessRequests\\Queries\\GetAccessRequestDetails\\DecisionDto.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetAccessRequestDetails\\DecisionDto.cs",
+              "RelativeToolTip": "Application\\AccessRequests\\Queries\\GetAccessRequestDetails\\DecisionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T21:46:13.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccessRequestDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetAccessRequestDetails\\AccessRequestDetailsDto.cs",
+              "RelativeDocumentMoniker": "Application\\AccessRequests\\Queries\\GetAccessRequestDetails\\AccessRequestDetailsDto.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetAccessRequestDetails\\AccessRequestDetailsDto.cs",
+              "RelativeToolTip": "Application\\AccessRequests\\Queries\\GetAccessRequestDetails\\AccessRequestDetailsDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T21:45:42.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RejectAccessRequestRequest.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\API\\Models\\RejectAccessRequestRequest.cs",
+              "RelativeDocumentMoniker": "API\\Models\\RejectAccessRequestRequest.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\API\\Models\\RejectAccessRequestRequest.cs",
+              "RelativeToolTip": "API\\Models\\RejectAccessRequestRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T21:38:43.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RejectAccessRequestHandler.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Commands\\RejectAccessRequest\\RejectAccessRequestHandler.cs",
+              "RelativeDocumentMoniker": "Application\\AccessRequests\\Commands\\RejectAccessRequest\\RejectAccessRequestHandler.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Commands\\RejectAccessRequest\\RejectAccessRequestHandler.cs",
+              "RelativeToolTip": "Application\\AccessRequests\\Commands\\RejectAccessRequest\\RejectAccessRequestHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wCAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T21:35:02.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RejectAccessRequestCommand.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Commands\\RejectAccessRequest\\RejectAccessRequestCommand.cs",
+              "RelativeDocumentMoniker": "Application\\AccessRequests\\Commands\\RejectAccessRequest\\RejectAccessRequestCommand.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Commands\\RejectAccessRequest\\RejectAccessRequestCommand.cs",
+              "RelativeToolTip": "Application\\AccessRequests\\Commands\\RejectAccessRequest\\RejectAccessRequestCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T21:34:54.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApproveAccessRequestRequest.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\API\\Models\\ApproveAccessRequestRequest.cs",
+              "RelativeDocumentMoniker": "API\\Models\\ApproveAccessRequestRequest.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\API\\Models\\ApproveAccessRequestRequest.cs",
+              "RelativeToolTip": "API\\Models\\ApproveAccessRequestRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T21:21:17.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApproveAccessRequestHandler.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Commands\\ApproveAccessRequest\\ApproveAccessRequestHandler.cs",
+              "RelativeDocumentMoniker": "Application\\AccessRequests\\Commands\\ApproveAccessRequest\\ApproveAccessRequestHandler.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Commands\\ApproveAccessRequest\\ApproveAccessRequestHandler.cs",
+              "RelativeToolTip": "Application\\AccessRequests\\Commands\\ApproveAccessRequest\\ApproveAccessRequestHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBQAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T21:03:47.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApproveAccessRequestCommand.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Commands\\ApproveAccessRequest\\ApproveAccessRequestCommand.cs",
+              "RelativeDocumentMoniker": "Application\\AccessRequests\\Commands\\ApproveAccessRequest\\ApproveAccessRequestCommand.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Commands\\ApproveAccessRequest\\ApproveAccessRequestCommand.cs",
+              "RelativeToolTip": "Application\\AccessRequests\\Commands\\ApproveAccessRequest\\ApproveAccessRequestCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T21:03:10.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GetPendingAccessRequestsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetPendingAccessRequests\\GetPendingAccessRequestsHandler.cs",
+              "RelativeDocumentMoniker": "Application\\AccessRequests\\Queries\\GetPendingAccessRequests\\GetPendingAccessRequestsHandler.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetPendingAccessRequests\\GetPendingAccessRequestsHandler.cs",
+              "RelativeToolTip": "Application\\AccessRequests\\Queries\\GetPendingAccessRequests\\GetPendingAccessRequestsHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T20:54:12.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetPendingAccessRequestsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetPendingAccessRequests\\GetPendingAccessRequestsQuery.cs",
+              "RelativeDocumentMoniker": "Application\\AccessRequests\\Queries\\GetPendingAccessRequests\\GetPendingAccessRequestsQuery.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetPendingAccessRequests\\GetPendingAccessRequestsQuery.cs",
+              "RelativeToolTip": "Application\\AccessRequests\\Queries\\GetPendingAccessRequests\\GetPendingAccessRequestsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T20:52:39.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PendingAccessRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetPendingAccessRequests\\PendingAccessRequestDto.cs",
+              "RelativeDocumentMoniker": "Application\\AccessRequests\\Queries\\GetPendingAccessRequests\\PendingAccessRequestDto.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetPendingAccessRequests\\PendingAccessRequestDto.cs",
+              "RelativeToolTip": "Application\\AccessRequests\\Queries\\GetPendingAccessRequests\\PendingAccessRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T20:51:59.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GetUserAccessRequestsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetUserAccessRequests\\GetUserAccessRequestsHandler.cs",
+              "RelativeDocumentMoniker": "Application\\AccessRequests\\Queries\\GetUserAccessRequests\\GetUserAccessRequestsHandler.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetUserAccessRequests\\GetUserAccessRequestsHandler.cs",
+              "RelativeToolTip": "Application\\AccessRequests\\Queries\\GetUserAccessRequests\\GetUserAccessRequestsHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwCAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T20:36:14.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserAccessRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetUserAccessRequests\\UserAccessRequestDto.cs",
+              "RelativeDocumentMoniker": "Application\\AccessRequests\\Queries\\GetUserAccessRequests\\UserAccessRequestDto.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetUserAccessRequests\\UserAccessRequestDto.cs",
+              "RelativeToolTip": "Application\\AccessRequests\\Queries\\GetUserAccessRequests\\UserAccessRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T20:35:02.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GetUserAccessRequestsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetUserAccessRequests\\GetUserAccessRequestsQuery.cs",
+              "RelativeDocumentMoniker": "Application\\AccessRequests\\Queries\\GetUserAccessRequests\\GetUserAccessRequestsQuery.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Queries\\GetUserAccessRequests\\GetUserAccessRequestsQuery.cs",
+              "RelativeToolTip": "Application\\AccessRequests\\Queries\\GetUserAccessRequests\\GetUserAccessRequestsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T20:33:50.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DebugController.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\API\\Controllers\\DebugController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\DebugController.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\API\\Controllers\\DebugController.cs",
+              "RelativeToolTip": "API\\Controllers\\DebugController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:58:08.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateAccessRequestRequest.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\API\\Models\\CreateAccessRequestRequest.cs",
+              "RelativeDocumentMoniker": "API\\Models\\CreateAccessRequestRequest.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\API\\Models\\CreateAccessRequestRequest.cs",
+              "RelativeToolTip": "API\\Models\\CreateAccessRequestRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:45:24.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccessRequestsController.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\API\\Controllers\\AccessRequestsController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AccessRequestsController.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\API\\Controllers\\AccessRequestsController.cs",
+              "RelativeToolTip": "API\\Controllers\\AccessRequestsController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwC8AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:42:35.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DocumentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Infrastructure\\Repositories\\DocumentRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\DocumentRepository.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Infrastructure\\Repositories\\DocumentRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\DocumentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:26:32.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:26:25.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccessRequestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Infrastructure\\Repositories\\AccessRequestRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\AccessRequestRepository.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Infrastructure\\Repositories\\AccessRequestRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\AccessRequestRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:26:15.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IDocumentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\Interfaces\\IDocumentRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IDocumentRepository.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\Interfaces\\IDocumentRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IDocumentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:01:26.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:01:18.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAccessRequestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\Interfaces\\IAccessRequestRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IAccessRequestRepository.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\Interfaces\\IAccessRequestRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IAccessRequestRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:01:04.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateAccessRequestHandler.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Commands\\CreateAccessRequest\\CreateAccessRequestHandler.cs",
+              "RelativeDocumentMoniker": "Application\\AccessRequests\\Commands\\CreateAccessRequest\\CreateAccessRequestHandler.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Commands\\CreateAccessRequest\\CreateAccessRequestHandler.cs",
+              "RelativeToolTip": "Application\\AccessRequests\\Commands\\CreateAccessRequest\\CreateAccessRequestHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwCMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:58:59.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CreateAccessRequestCommand.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Commands\\CreateAccessRequest\\CreateAccessRequestCommand.cs",
+              "RelativeDocumentMoniker": "Application\\AccessRequests\\Commands\\CreateAccessRequest\\CreateAccessRequestCommand.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Application\\AccessRequests\\Commands\\CreateAccessRequest\\CreateAccessRequestCommand.cs",
+              "RelativeToolTip": "Application\\AccessRequests\\Commands\\CreateAccessRequest\\CreateAccessRequestCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:51:03.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DbSeederTests.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Tests\\Infrastructure\\DbSeederTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Infrastructure\\DbSeederTests.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Tests\\Infrastructure\\DbSeederTests.cs",
+              "RelativeToolTip": "Tests\\Infrastructure\\DbSeederTests.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAvwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T22:49:12.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Infrastructure\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Infrastructure\\DbSeeder.cs",
+              "RelativeToolTip": "Infrastructure\\DbSeeder.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T22:20:17.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T21:57:44.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Tests\\Tests.csproj",
+              "RelativeDocumentMoniker": "Tests\\Tests.csproj",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Tests\\Tests.csproj",
+              "RelativeToolTip": "Tests\\Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-21T14:32:22.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Document Access Approval System.csproj",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\DocumentAccessApprovalSystem.csproj",
+              "RelativeDocumentMoniker": "DocumentAccessApprovalSystem.csproj",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\DocumentAccessApprovalSystem.csproj",
+              "RelativeToolTip": "DocumentAccessApprovalSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-21T14:32:18.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AccessRequestTests.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Tests\\Domain\\Entities\\AccessRequestTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Domain\\Entities\\AccessRequestTests.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Tests\\Domain\\Entities\\AccessRequestTests.cs",
+              "RelativeToolTip": "Tests\\Domain\\Entities\\AccessRequestTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T14:30:00.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvx8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:12:35.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Document.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Domain\\Entities\\Document.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Document.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Domain\\Entities\\Document.cs",
+              "RelativeToolTip": "Domain\\Entities\\Document.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T14:02:24.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:56:40.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Domain\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Domain\\Enums\\UserRole.cs",
+              "RelativeToolTip": "Domain\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:56:10.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Decision.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Domain\\Entities\\Decision.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Decision.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Domain\\Entities\\Decision.cs",
+              "RelativeToolTip": "Domain\\Entities\\Decision.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:42:28.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RequestStatus.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Domain\\Enums\\RequestStatus.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\RequestStatus.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Domain\\Enums\\RequestStatus.cs",
+              "RelativeToolTip": "Domain\\Enums\\RequestStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:32:31.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AccessType.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Domain\\Enums\\AccessType.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\AccessType.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Domain\\Enums\\AccessType.cs",
+              "RelativeToolTip": "Domain\\Enums\\AccessType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:31:56.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AccessRequest.cs",
+              "DocumentMoniker": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Domain\\Entities\\AccessRequest.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\AccessRequest.cs",
+              "ToolTip": "C:\\Users\\rala\\Desktop\\Sandbox\\Repos\\Document Access Approval System\\Domain\\Entities\\AccessRequest.cs",
+              "RelativeToolTip": "Domain\\Entities\\AccessRequest.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAWwA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:30:00.384Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 349,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

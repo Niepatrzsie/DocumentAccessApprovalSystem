@@ -1,0 +1,38 @@
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\Document Access Approval System.csproj.AssemblyReference.cache
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\Document Access Approval System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\Document Access Approval System.AssemblyInfoInputs.cache
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\Document Access Approval System.AssemblyInfo.cs
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\Document Access Approval System.csproj.CoreCompileInputs.cache
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\Document Access Approval System.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\Document Access Approval System.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\bin\Debug\net8.0\appsettings.json
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\bin\Debug\net8.0\Document Access Approval System.exe
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\bin\Debug\net8.0\Document Access Approval System.deps.json
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\bin\Debug\net8.0\Document Access Approval System.runtimeconfig.json
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\bin\Debug\net8.0\Document Access Approval System.dll
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\bin\Debug\net8.0\Document Access Approval System.pdb
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\staticwebassets\msbuild.Document Access Approval System.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\staticwebassets\msbuild.build.Document Access Approval System.props
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Document Access Approval System.props
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Document Access Approval System.props
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\scopedcss\bundle\Document Access Approval System.styles.css
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\Document.574E30F0.Up2Date
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\Document Access Approval System.dll
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\refint\Document Access Approval System.dll
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\Document Access Approval System.pdb
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\Document Access Approval System.genruntimeconfig.cache
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\obj\Debug\net8.0\ref\Document Access Approval System.dll
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\bin\Debug\net8.0\MediatR.dll
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\rala\Desktop\Sandbox\Repos\Document Access Approval System\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

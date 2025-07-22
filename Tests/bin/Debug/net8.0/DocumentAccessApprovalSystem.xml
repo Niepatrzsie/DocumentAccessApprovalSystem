@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DocumentAccessApprovalSystem</name>
+    </assembly>
+    <members>
+        <member name="M:Document_Access_Approval_System.API.Controllers.AccessRequestsController.CreateAccessRequest(Document_Access_Approval_System.API.Models.CreateAccessRequestRequest)">
+            <summary>
+            Send a new access request for a document.
+            </summary>
+            <param name="request">Access request details</param>
+            <returns>The ID of the newly created access request</returns>
+        </member>
+        <member name="M:Document_Access_Approval_System.API.Controllers.AccessRequestsController.GetById(System.Guid)">
+            <summary>
+            Retrieves detailed information about a specific access request,
+            including its status, associated document, requester, and decision (if any).
+            </summary>
+            <param name="id">The ID of the access request</param>
+            <returns>Detailed access request information</returns>
+            <response code="200">Returns the access request details</response>
+            <response code="404">If the access request was not found</response>
+        </member>
+        <member name="M:Document_Access_Approval_System.API.Controllers.AccessRequestsController.GetUserRequests(System.Guid)">
+            <summary>
+            Returns all access requests made by a given user.
+            </summary>
+        </member>
+        <member name="M:Document_Access_Approval_System.API.Controllers.AccessRequestsController.GetPendingRequests">
+            <summary>
+            Returns all pending access requests waiting for approval. (Approval role)
+            </summary>
+            <returns>List of pending access requests</returns>
+        </member>
+        <member name="M:Document_Access_Approval_System.API.Controllers.AccessRequestsController.ApproveRequest(System.Guid,Document_Access_Approval_System.API.Models.ApproveAccessRequestRequest)">
+            <summary>
+            Approves a pending access request. (Approval Role)
+            </summary>
+            <param name="id">The ID of the access request</param>
+            <param name="request">Approval details (approver + comment)</param>
+            <returns>No content on success</returns>
+        </member>
+        <member name="M:Document_Access_Approval_System.API.Controllers.AccessRequestsController.RejectRequest(System.Guid,Document_Access_Approval_System.API.Models.RejectAccessRequestRequest)">
+            <summary>
+            Rejects a pending access request. (Approval Role)
+            </summary>
+            <param name="id">The ID of the access request</param>
+            <param name="request">Rejection details</param>
+            <returns>No content on success</returns>
+        </member>
+        <member name="T:Document_Access_Approval_System.API.Models.ApproveAccessRequestRequest">
+            <summary>
+            Data required to approve an access request.
+            </summary>
+        </member>
+        <member name="T:Document_Access_Approval_System.API.Models.CreateAccessRequestRequest">
+            <summary>
+            Represents the data required to create an access request for a document.
+            </summary>
+        </member>
+        <member name="P:Document_Access_Approval_System.API.Models.CreateAccessRequestRequest.DocumentId">
+            <summary>
+            ID of the document the user wants access to.
+            </summary>
+        </member>
+        <member name="P:Document_Access_Approval_System.API.Models.CreateAccessRequestRequest.UserId">
+            <summary>
+            ID of the user submitting the request.
+            </summary>
+        </member>
+        <member name="P:Document_Access_Approval_System.API.Models.CreateAccessRequestRequest.Reason">
+            <summary>
+            Reason for requesting access.
+            </summary>
+        </member>
+        <member name="P:Document_Access_Approval_System.API.Models.CreateAccessRequestRequest.AccessType">
+            <summary>
+            Type of access requested (Read or Edit).
+            </summary>
+        </member>
+        <member name="T:Document_Access_Approval_System.API.Models.RejectAccessRequestRequest">
+            <summary>
+            Data required to reject an access request.
+            </summary>
+        </member>
+        <member name="T:Document_Access_Approval_System.Application.AccessRequests.Commands.ApproveAccessRequest.ApproveAccessRequestCommand">
+            <summary>
+            Command to approve a pending access request.
+            </summary>
+            <param name="RequestId">The ID of the access request</param>
+            <param name="ApproverId">The ID of the user approving the request</param>
+            <param name="Comment">Optional comment</param>
+        </member>
+        <member name="M:Document_Access_Approval_System.Application.AccessRequests.Commands.ApproveAccessRequest.ApproveAccessRequestCommand.#ctor(System.Guid,System.Guid,System.String)">
+            <summary>
+            Command to approve a pending access request.
+            </summary>
+            <param name="RequestId">The ID of the access request</param>
+            <param name="ApproverId">The ID of the user approving the request</param>
+            <param name="Comment">Optional comment</param>
+        </member>
+        <member name="P:Document_Access_Approval_System.Application.AccessRequests.Commands.ApproveAccessRequest.ApproveAccessRequestCommand.RequestId">
+            <summary>The ID of the access request</summary>
+        </member>
+        <member name="P:Document_Access_Approval_System.Application.AccessRequests.Commands.ApproveAccessRequest.ApproveAccessRequestCommand.ApproverId">
+            <summary>The ID of the user approving the request</summary>
+        </member>
+        <member name="P:Document_Access_Approval_System.Application.AccessRequests.Commands.ApproveAccessRequest.ApproveAccessRequestCommand.Comment">
+            <summary>Optional comment</summary>
+        </member>
+        <member name="T:Document_Access_Approval_System.Application.AccessRequests.Commands.RejectAccessRequest.RejectAccessRequestCommand">
+            <summary>
+            Command to reject a pending access request.
+            </summary>
+        </member>
+        <member name="M:Document_Access_Approval_System.Application.AccessRequests.Commands.RejectAccessRequest.RejectAccessRequestCommand.#ctor(System.Guid,System.Guid,System.String)">
+            <summary>
+            Command to reject a pending access request.
+            </summary>
+        </member>
+        <member name="T:Document_Access_Approval_System.Application.AccessRequests.Queries.GetAccessRequestDetails.GetAccessRequestDetailsQuery">
+            <summary>
+            Query to get details of a specific access request.
+            </summary>
+        </member>
+        <member name="M:Document_Access_Approval_System.Application.AccessRequests.Queries.GetAccessRequestDetails.GetAccessRequestDetailsQuery.#ctor(System.Guid)">
+            <summary>
+            Query to get details of a specific access request.
+            </summary>
+        </member>
+        <member name="T:Document_Access_Approval_System.Application.AccessRequests.Queries.GetPendingAccessRequests.GetPendingAccessRequestsQuery">
+            <summary>
+            Query to get all access requests that are still pending approval.
+            </summary>
+        </member>
+        <member name="M:Document_Access_Approval_System.Application.AccessRequests.Queries.GetPendingAccessRequests.GetPendingAccessRequestsQuery.#ctor">
+            <summary>
+            Query to get all access requests that are still pending approval.
+            </summary>
+        </member>
+        <member name="T:Document_Access_Approval_System.Application.AccessRequests.Queries.GetPendingAccessRequests.PendingAccessRequestDto">
+            <summary>
+            DTO representing a pending access request for approver view.
+            </summary>
+        </member>
+        <member name="T:Document_Access_Approval_System.Application.AccessRequests.Queries.GetUserAccessRequests.GetUserAccessRequestsQuery">
+            <summary>
+            Query to retrieve all access requests made by a specific user.
+            </summary>
+            <param name="UserId">The ID of the user</param>
+        </member>
+        <member name="M:Document_Access_Approval_System.Application.AccessRequests.Queries.GetUserAccessRequests.GetUserAccessRequestsQuery.#ctor(System.Guid)">
+            <summary>
+            Query to retrieve all access requests made by a specific user.
+            </summary>
+            <param name="UserId">The ID of the user</param>
+        </member>
+        <member name="P:Document_Access_Approval_System.Application.AccessRequests.Queries.GetUserAccessRequests.GetUserAccessRequestsQuery.UserId">
+            <summary>The ID of the user</summary>
+        </member>
+        <member name="T:Document_Access_Approval_System.Application.AccessRequests.Queries.GetUserAccessRequests.UserAccessRequestDto">
+            <summary>
+            DTO representing a user's access request for display purposes.
+            </summary>
+        </member>
+        <member name="T:AccessType">
+            <summary>
+            Type of access being requested for the document.
+            </summary>
+        </member>
+        <member name="F:AccessType.Read">
+            <summary>
+            Read-only access.
+            </summary>
+        </member>
+        <member name="F:AccessType.Edit">
+            <summary>
+            Edit permission.
+            </summary>
+        </member>
+    </members>
+</doc>

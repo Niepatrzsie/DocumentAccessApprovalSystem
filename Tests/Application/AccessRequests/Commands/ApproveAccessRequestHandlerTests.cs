@@ -1,0 +1,68 @@
+﻿using Document_Access_Approval_System.Application.AccessRequests.Commands.ApproveAccessRequest;
+using Document_Access_Approval_System.Application.Interfaces;
+using Document_Access_Approval_System.Domain.Entities;
+using Document_Access_Approval_System.Domain.Enums;
+using FluentAssertions;
+using Moq;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tests.Application.AccessRequests.Commands
+{
+    public class ApproveAccessRequestHandlerTests
+    {
+        private readonly Mock<IAccessRequestRepository> _accessRequestRepoMock;
+        private readonly Mock<IUserRepository> _userRepoMock;
+        private readonly ApproveAccessRequestHandler _handler;
+
+        public ApproveAccessRequestHandlerTests()
+        {
+            _accessRequestRepoMock = new Mock<IAccessRequestRepository>();
+            _userRepoMock = new Mock<IUserRepository>();
+            _handler = new ApproveAccessRequestHandler(_accessRequestRepoMock.Object, _userRepoMock.Object);
+        }
+
+
+        [Fact]
+        public async Task Handle_ShouldApproveRequest_WhenRequestAndApproverExist()
+        {
+            // Arrange
+            var requestId = Guid.NewGuid();
+            var approverId = Guid.NewGuid();
+            var comment = "Looks good.";
+
+            var request = new AccessRequest(Guid.NewGuid(), Guid.NewGuid(), "test", AccessType.Read);
+            var approver = new User(approverId, "Manager", UserRole.Approver);
+
+            _accessRequestRepoMock
+                .Setup(r => r.GetWithDetailsAsync(requestId))
+                .ReturnsAsync(request);
+
+            _userRepoMock
+                .Setup(r => r.GetByIdAsync(approverId))
+                .ReturnsAsync(approver);
+
+            _accessRequestRepoMock
+                .Setup(r => r.UpdateAsync(It.IsAny<AccessRequest>()))
+                .Returns(Task.CompletedTask)
+                .Verifiable();
+
+            var command = new ApproveAccessRequestCommand(requestId, approverId, comment);
+
+            // Act
+            var result = await _handler.Handle(command, default);
+
+            // Assert
+            request.Status.Should().Be(RequestStatus.Approved);
+            request.Decision.Should().NotBeNull();
+            request.Decision!.Comment.Should().Be(comment);
+            request.Decision.ApprovedBy.Should().Be(approverId);
+            request.Decision.Status.Should().Be(RequestStatus.Approved);
+
+            _accessRequestRepoMock.Verify(r => r.UpdateAsync(request), Times.Once);
+        }
+    }
+}
